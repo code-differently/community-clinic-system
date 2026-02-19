@@ -186,6 +186,107 @@ Submit:
 
 Build it like a real system.
 
-Start simple.
-Layer complexity.
-Think like an engineer.
+========================================
+     WILMINGTON COMMUNITY CLINIC
+========================================
+
+1. Add New Patient
+2. View All Patients
+3. Check In Patient
+4. Search Patient
+5. Schedule Appointment
+6. Cancel Appointment
+7. View Daily Schedule
+8. Complete Appointment
+9. Daily Report
+0. Exit
+
+Enter choice: 1
+----------------------------------------
+Enter patient name: Marcus Hill
+Enter phone number: 302-555-8912
+
+Patient added successfully.
+Assigned ID: 1
+----------------------------------------
+
+Enter choice: 1
+----------------------------------------
+Enter patient name: Jasmine Lee
+Enter phone number: 302-555-1133
+
+Patient added successfully.
+Assigned ID: 2
+----------------------------------------
+
+Enter choice: 2
+----------------------------------------
+PATIENT LIST
+----------------------------------------
+ID: 1 | Marcus Hill | Checked In: false
+ID: 2 | Jasmine Lee | Checked In: false
+----------------------------------------
+
+Enter choice: 3
+----------------------------------------
+Enter patient ID to check in: 1
+
+Marcus Hill is now checked in.
+----------------------------------------
+
+Enter choice: 5
+----------------------------------------
+Enter patient ID: 1
+Enter time slot (0–7): 3
+Enter reason: Physical Exam
+
+Appointment scheduled successfully.
+----------------------------------------
+
+Enter choice: 5
+----------------------------------------
+Enter patient ID: 2
+Enter time slot (0–7): 3
+
+Error: Time slot already booked.
+----------------------------------------
+
+Enter choice: 7
+----------------------------------------
+DAILY SCHEDULE
+----------------------------------------
+Slot 0: Available
+Slot 1: Available
+Slot 2: Available
+Slot 3: Marcus Hill | Physical Exam | SCHEDULED
+Slot 4: Available
+Slot 5: Available
+Slot 6: Available
+Slot 7: Available
+----------------------------------------
+
+Enter choice: 8
+----------------------------------------
+Enter time slot to complete: 3
+
+Appointment marked as COMPLETED.
+----------------------------------------
+
+Enter choice: 9
+----------------------------------------
+DAILY SUMMARY REPORT
+----------------------------------------
+Total Patients: 2
+Checked In: 1
+Scheduled Appointments: 0
+Completed Appointments: 1
+Cancelled Appointments: 0
+Open Time Slots: 7
+----------------------------------------
+
+Enter choice: 0
+
+Thank you for using Wilmington Community Clinic System.
+System shutting down...
+
+
