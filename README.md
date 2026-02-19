@@ -34,10 +34,10 @@ You must demonstrate clean structure and logical thinking.
 
 Create the following classes:
 
-* `Patient.java`
-* `Appointment.java`
-* `ClinicSystem.java`
-* `ClinicApp.java` (Main class)
+* `YourNamePatient.java`
+* `YourNameAppointment.java`
+* `YourNameClinicSystem.java`
+* `YourNameClinicApp.java` (Main class)
 
 You may add additional helper methods if needed.
 
