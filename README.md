@@ -136,8 +136,7 @@ This is your opportunity to show deeper understanding and creativity.
 
 You may choose more than one once you finish early.
 
----**
-**Required Personalization Component:
+Required Personalization Component:
 
 To reduce identical solutions:
 Each student must choose ONE of the following themes and rename their system accordingly:
